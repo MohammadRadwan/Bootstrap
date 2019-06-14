@@ -1,4 +1,4 @@
-# Multi-pages-Template-2017-
+# Multi-pages-Template-2017
 Its a Simple Bootstrap Multi-pages Template.
 
 ## Technologies Used:
