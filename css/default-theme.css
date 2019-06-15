@@ -1,0 +1,39 @@
+
+/* Background */
+
+nav,
+.header-carousal .carousel-indicators .active,
+.skills .skill button,
+.contact-us .data1 button,
+footer .work .work-img img,
+.subscribe form .btn-primary,
+.scroll i
+{ background-color: #1372e8 }
+
+/* Border */
+
+nav ul .dropdown .dropdown-menu,
+.testmonials .carousel-indicators li,
+.testmonials .carousel-indicators .active,
+.our-team .overlay .person img:hover,
+.skills .skill button,
+.contact-us .data1 button,
+footer .work .work-img img,
+.option-box i,
+.subscribe form .btn-primary,
+.option-box .box,
+.scroll i
+{ border: 1px solid #1372e8 }
+
+/* Color */
+
+nav ul .dropdown .dropdown-menu a,
+header span,
+.features .feat i,
+.testmonials .carousel span,
+.our-team .overlay .person span,
+.our-team .overlay .person i,
+footer,
+footer .copy span,
+.option-box i
+{ color: #1372e8 }

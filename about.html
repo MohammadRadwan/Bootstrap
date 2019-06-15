@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Required Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title -->
+    <title>Bootstrap</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- Iconic Fonts -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <!-- Color -->
+    <link rel="stylesheet" href="css/default-theme.css">
+    <!-- Google Fonts -->
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Merriweather">
+    <link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Racing+Sans+One">
+    <!-- Main Css -->
+    <link rel="stylesheet" href="css/home.css">
+    <!-- About Css -->
+    <link rel="stylesheet" href="css/about.css">
+</head>
+<body>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand pull-left" href="home.html">
+            <img src="images/bootstrap-icon.png" class="d-inline-block align-top" alt="Brand">
+            <span>Bootstrap</span>
+            </a>
+            <!-- Toggler -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links" aria-controls="navbarNavDropdown"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon point"></span>
+            </button>
+            <!-- Links -->
+            <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+                <ul class="navbar-nav">
+                    <li class="nav-item"> <!-- Activated Link -->
+                        <a class="nav-link" href="home.html">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="faq.html">FAQ</a>
+                    </li>
+                    <!-- Dropdown -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="http://example.com" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Services
+                        </a>
+                        <div class="dropdown-menu overflow" aria-labelledby="navbarDropdownMenuLink">
+                            <a class="dropdown-item" href="#">Action</a>
+                            <a class="dropdown-item" href="#">Another action</a>
+                            <div class="dropdown-divider"></div> <!-- HR for the menu -->
+                            <a class="dropdown-item" href="#">Something else here</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start BreadCrumb -->
+    <section class="bread-crumb">
+        <div class="container">
+            <div class="breadcrumb">
+                <a class="breadcrumb-item" href="home.html">Home</a>
+                <span class="breadcrumb-item active">About</span>
+            </div>
+        </div>
+    </section>
+    <!-- End BreadCrumb -->
+
+    <!-- Start About -->
+    <section class="about text-center">
+        <div class="container">
+            <div class="head">
+                <h1>About-Us</h1>
+                <hr>
+                <p class="lead">Coding Is Beautiful And Powerful Thing That Can Change The World For Good.</p>
+                <img class="img-fluid img-thumbnail" src="images/About.jpg">
+            </div>
+        </div>
+        <!-- Items -->
+        <div class="sections">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-xs-12 item">
+                        <i class="fa fa-code fa-4x"></i>
+                        <h3>Love To Code</h3>
+                        <p>Coding Is Beautiful And Powerful Thing That Can Change The World For Good.</p>
+                    </div>
+                        <div class="col-md-4 col-xs-12 item">
+                        <i class="fa fa-child fa-4x"></i>
+                        <h3>Always Happy</h3>
+                        <p>Happiness Is Beautiful And Powerful Thing That Can Change The World For Good.</p>
+                    </div>
+                        <div class="col-md-4 col-xs-12 item">
+                        <i class="fa fa-handshake-o fa-4x"></i>
+                        <h3>Always Together</h3>
+                        <p>Coding Is Beautiful And Powerful Thing That Can Change The World For Good.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Contact -->
+        <div class="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <img class="img-fluid" src="Images/ceo.jpg">
+                    </div>
+                    <div class="col-md-7 ceo">
+                    <h3>We Are Happy To Help You</h3>
+                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                    tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                    consequat.
+                    </p>
+                    <a class="btn btn-primary" href="#">Contact Us</a>
+                </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End About -->
+
+    <!-- Start Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="sitemap">
+                        <div class="links">
+                            <h3 class="text-center">Sitemap</h3>
+                            <ul class="list-unstyled text-center overflow">
+                                <li>Home</li>
+                                <li>Services</li>
+                                <li>About</li>
+                                <li>Code</li>
+                                <li>Design</li>
+                                <li>Links</li>
+                                <li>Contact</li>
+                                <li>Questions</li>
+                                <li>Help</li>
+                            </ul>
+                        </div>
+                        <div class="social">
+                            <ul class="list-unstyled overflow text-center">
+                                <li class="d-inline-block">
+                                    <img class="rounded-circle img-fluid" src="images/Social/facebook.png" title="Facebook">
+                                </li>
+                                <li class="d-inline-block">
+                                    <img class="rounded-circle img-fluid" src="images/Social/google.png" title="Google">
+                                </li>
+                                <li class="d-inline-block">
+                                    <img class="rounded-circle img-fluid" src="images/Social/pinterest.png" title="Pinterest">
+                                </li>
+                                <li class="d-inline-block">
+                                    <img class="rounded-circle img-fluid" src="images/Social/twitter.png" title="Twitter">
+                                </li>
+                                <li class="d-inline-block">
+                                    <img class="rounded-circle img-fluid" src="images/Social/whatsapp.png" title="Whatsapp">
+                                </li>
+                                <li class="d-inline-block">
+                                    <img class="rounded-circle img-fluid" src="images/Social/youtube.png" title="Youtube">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="articles">
+                        <h3 class="text-center">Latest Articles</h3>
+                        <div class="media">
+                            <img class="d-flex mr-3" src="images/Footer/php.png">
+                            <div class="media-body">
+                                <h5 class="mt-0">Programming</h5>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque.</p>
+                            </div>
+                        </div>
+                        <div class="media">
+                            <img class="d-flex mr-3" src="images/Footer/html.png">
+                            <div class="media-body">
+                                <h5 class="mt-0">Coding</h5>
+                                <p>Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="work">
+                        <h3 class="text-center">Our Awesome Work</h3>
+                        <div class="images">
+                            <div class="work-img">
+                                <img class="img-fluid img-thumbnail mx-auto" src="images/Work/awe1.png">
+                            </div>
+                            <div class="work-img">
+                                <img class="img-fluid img-thumbnail mx-auto" src="images/Work/awe2.png">
+                            </div>
+                            <div class="work-img">
+                                <img class="img-fluid img-thumbnail mx-auto" src="images/Work/awe3.png">
+                            </div>
+                            <div class="work-img">
+                                <img class="img-fluid img-thumbnail mx-auto" src="images/Work/awe4.png">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy text-center">
+            Copyrights &copy; 2017 <span><strong>Zughayer</strong></span> .Inc
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Option Box -->
+    <section class="option-box overflow">
+        <div class="box pull-left">
+            <h5>Color Options</h5>
+            <ul class="list-unstyled">
+                <li class="rounded-circle d-inline-block" data-value="../css/default-theme.css"></li>
+                <li class="rounded-circle d-inline-block" data-value="../css/red-theme.css"></li>
+                <li class="rounded-circle d-inline-block" data-value="../css/green-theme.css"></li>
+                <li class="rounded-circle d-inline-block" data-value="../css/purple-theme.css"></li>
+                <li class="rounded-circle d-inline-block" data-value="../css/sky-theme.css"></li>
+            </ul>
+        </div>
+        <i class="fa fa-gear fa-2x gear-check"></i>
+    </section>
+    <!-- End Option Box -->
+
+    <!-- Start Scroll -->
+    <section class="scroll">
+            <i class="fa fa-angle-up fa-2x rounded-circle"></i>
+    </section>
+    <!-- End Scroll -->
+
+
+    <!-- Scripts Here -->
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+
+/* Start Bread */
+
+.bread-crumb { background-color: #e9ecef; margin-top: 55px }
+
+.breadcrumb { margin: 0 }
+
+/* End Bread */
+
+/* Start FAQ Head */
+
+.faq { padding: 30px 0 }
+
+.faq h1 { font-size: 50px; letter-spacing: -3px }
+
+.faq .lead { font-weight: 400 }
+
+/* End FAQ Head */
+
+/* Start Accordion */
+
+.accordion { margin-bottom: 20px }
+
+.accordion .card-header { padding:15px }
+
+/* End Accordion */

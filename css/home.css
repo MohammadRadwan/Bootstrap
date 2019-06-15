@@ -1,0 +1,637 @@
+/* Body */
+body { position: relative }
+
+/* Start Navbar */
+nav,
+.fixed-top { padding: 0 }
+
+nav span {
+    line-height: 45px;
+    margin-left: -10px;
+    font-family: 'Philosopher', sans-serif;
+    letter-spacing: -1px;
+    font-size: 24px;
+    -webkit-text-shadow: 2px 2px 2px #000;
+    text-shadow: 2px 2px 2px #000
+}
+
+nav img { width: 70px; height: 45px }
+
+nav ul li { padding: 0 0 0 20px; font-size: 18px; font-family: 'Merriweather', serif }
+
+nav ul .dropdown .dropdown-menu { left: auto }
+
+nav ul .dropdown .dropdown-menu a {
+    padding-left: 1rem;
+    -webkit-transition: margin .5s ease-in-out;
+    transition: margin .5s ease-in-out
+}
+
+nav ul .dropdown .dropdown-menu a:hover { margin-left: 5px }
+
+.navbar-dark .navbar-toggler-icon { margin: 0; font-size: 20px }
+
+/* Media */
+@media (max-width: 575px) {
+    .navbar-dark .navbar-brand { margin-right: 0 }
+
+    .navbar-dark .navbar-toggler { margin-right: 10px }
+}
+
+/* End Navbar */
+
+/* Start Carousal */
+
+.header-carousal .carousel { margin-top: 55px }
+
+.header-carousal .carousel-indicators li { width: 17px; height: 17px }
+
+.header-carousal .carousel .carousel-caption {
+    background:rgba(3,3,3,0.3);
+    padding: 30px 10px;
+    bottom: 80px;
+    max-height: 400px
+}
+
+.header-carousal .carousel .carousel-caption h3,
+.header-carousal .carousel .carousel-caption .lead { margin-bottom: 30px }
+
+.header-carousal .carousel .carousel-caption button { margin-right: 20px; width: 150px }
+
+/* Media */
+@media (max-width:992px) {
+
+    .header-carousal .carousel .carousel-inner img { height: 250px }
+
+    .header-carousal .carousel .carousel-caption { padding-top: 10px; top: 10px; height: 215px }
+
+    .header-carousal .carousel .carousel-caption h3,
+    .header-carousal .carousel .carousel-caption .lead { margin-bottom: 10px }
+
+    .header-carousal .carousel .carousel-caption h3 { font-size: 20px }
+
+    .header-carousal .carousel .carousel-caption .lead { font-size: 16px }
+
+    .header-carousal .carousel .carousel-caption button { margin-right: 10px; width: 100px; font-size: 13px }
+
+    .header-carousal .carousel-indicators { bottom: -10px }
+
+    .header-carousal .carousel-indicators li { width: 14px; height: 14px }
+}
+
+@media (max-width:754px) {
+
+    .header-carousal .carousel .carousel-inner img { height: 270px }
+
+    .header-carousal .carousel .carousel-caption { padding-top: 10px; top: 10px; height: 235px }
+}
+
+@media (max-width:627px) {
+
+    .header-carousal .carousel .carousel-inner img { height: 270px }
+
+    .header-carousal .carousel .carousel-caption {
+        padding-top: 10px;
+        top: 10px;
+        left: 70px;
+        height: 235px;
+        width: 500px
+    }
+
+    .header-carousal .carousel-control-prev-icon, .carousel-control-next-icon { display: none }
+
+    .header-carousal .carousel-indicators li { left: 10px }
+}
+
+@media (min-width:769px) and (max-width:992px) {
+
+    .header-carousal .carousel .carousel-inner img { height: 300px }
+
+    .header-carousal .carousel .carousel-caption { height: 250px }
+
+    .header-carousal .carousel .carousel-caption h3,
+    .header-carousal .carousel .carousel-caption .lead{ margin-bottom: 20px }
+
+    .header-carousal .carousel .carousel-caption h3 { font-size: 24px }
+
+    .header-carousal .carousel .carousel-caption .lead { font-size: 18px }
+
+    .header-carousal .carousel .carousel-caption button { margin-right: 10px; font-size: 15px; padding-bottom: 10px }
+
+    .header-carousal .carousel-indicators { bottom: -5px }
+}
+
+@media (min-width:769px) and (max-width:845px) {
+
+    .header-carousal .carousel .carousel-caption { padding-bottom: 20px }
+
+    .header-carousal .carousel .carousel-caption .lead{ margin-bottom: 10px; font-size: 17px }
+
+    .header-carousal .carousel .carousel-caption h3 { margin-bottom: 15px }
+}
+
+@media (min-width:993px) and (max-width:1200px) {
+
+    .header-carousal .carousel .carousel-caption { padding: 20px 10px; top: 5px; height: 90% }
+
+    .header-carousal .carousel .carousel-caption h3,
+    .header-carousal .carousel .carousel-caption .lead { margin-bottom: 20px }
+
+    .header-carousal .carousel-indicators { bottom: -8px }
+}
+
+@media (min-width:1053px) and (max-width:1200px) {
+
+    .header-carousal .carousel .carousel-caption .lead{ margin-bottom: 40px }
+}
+
+/* End Carousal */
+
+/* Start Header */
+
+header,
+.features,
+.testmonials,
+.price,
+.subscribe,
+.statistics .overlay,
+.skills,
+.contact-us .overlay,
+footer { padding: 40px 0 30px }
+
+header h1 { margin-bottom: 20px }
+
+header span { -webkit-text-shadow: 1px 1px 1px #000; text-shadow: 1px 1px 1px #333; letter-spacing: 2px }
+
+/* Media */
+@media (max-width:575px) {
+    header { padding: 30px 0 10px; margin: 40px 0 0 }
+}
+
+@media (max-width:767px) {
+    header h1 { font-size: 35px }
+}
+
+/* End Header */
+
+/* Start Features */
+
+.features { background-color: #ddd }
+
+.features .feat { padding-bottom: 10px }
+
+.features .feat h3,
+.features .feat .lead { margin: 10px 0 }
+
+.features .feat i { font-size: 30px }
+
+.features .feat .lead { line-height: 1.8; font-family: 'Itim', cursive }
+
+/* End Features */
+
+/* Start Testmonial */
+
+.testmonials .carousel { margin-top: 20px }
+
+.testmonials .carousel .lead,
+.testmonials .carousel span  { font-weight: 500 }
+
+/* Start Indicators */
+
+.testmonials .carousel-indicators { position: static; width: 100%; margin: 0 }
+
+.testmonials .carousel-indicators li {
+    text-indent: 0;
+    width: 70px;
+    height: 100%;
+    opacity: 0.5;
+    border: 2px solid #fff;
+    margin: 5px
+}
+
+.testmonials .slider2 .carousel-indicators li.active {
+    opacity: 1;
+    width: 70px;
+    height: 100%;
+    background: none
+}
+
+/* End Testmonial */
+
+/* Start Price */
+
+.price { background-color: #ccc }
+
+.price .item {
+    border: 2px solid #aaa;
+    line-height: 2;
+    font-weight: bold;
+    font-family: 'Playfair Display', serif;
+    background-color: #eee;
+    padding: 15px 0;
+    margin-bottom: 10px;
+    -webkit-transition: all 1.5s ease-in-out;
+    transition: all 1.5s ease-in-out
+}
+
+.price .item span { font-size: 25px; padding: 10px }
+
+.price .item ul { font-size: 18px; margin-top: 15px }
+
+.price h3 { margin: 8px 0 }
+
+/* End Price */
+
+/* Start Team */
+
+.our-team {
+    background: url(../images/4.jpg) no-repeat center center fixed;
+    min-height: 600px;
+    font-family: 'Lora', serif
+}
+
+.our-team .overlay {
+    background: rgba(2, 2, 2, 0.7);
+    min-height: 600px;
+    color: #fff;
+    padding: 20px 0
+}
+
+.our-team .overlay h2 { margin: 20px 0 50px }
+
+.our-team .overlay .person { margin-bottom: 30px }
+
+.our-team .overlay .person img {
+    margin-bottom: 30px;
+    height: 230px;
+    width: 230px;
+    display: block;
+    -webkit-transition: all .8s ease-in-out;
+    transition: all .8s ease-in-out
+}
+
+.our-team .overlay .person img:hover { -webkit-transform: scale(1.1,1.1); transform: scale(1.1,1.1) }
+
+.our-team .overlay .person span { font-size: 19px; font-weight: bold; padding: 10px 0; letter-spacing: -1px }
+
+.our-team .overlay .person i { padding: 0 5px 0 0; margin-bottom: 10px }
+
+.our-team .overlay .person p { line-height: 2; font-size: 18px; padding: 20px 0 10px }
+
+/* Media */
+@media (max-width:991px) {
+    .our-team .overlay,
+    .our-team .overlay .person p { padding-bottom: 0 }
+}
+
+/* End Team */
+
+/* Start Subscribe */
+
+.subscribe { background-color: #aaa; padding-bottom: 40px }
+
+.subscribe form .form-control { margin-right: -5px; width: 225px }
+
+.subscribe form i { padding-right: 3px }
+
+/* Media */
+@media (max-width:576px) {
+
+    .subscribe form  button { margin-top: 10px }
+}
+
+/* End Subscribe */
+
+/* Start Statistics */
+
+.statistics { background: url(../images/book.jpg) no-repeat center center fixed; min-height: 300px }
+
+.statistics .overlay {
+    background: rgba(8, 8, 8, 0.8);
+    min-height: 300px;
+    padding: 30px 0;
+    color: #aaa
+}
+
+.statistics .overlay .stat { -webkit-transition: all 1s ease-in-out; transition: all 1s ease-in-out }
+
+.statistics .overlay .stat:hover { color: #fff }
+
+.statistics .overlay h2 { padding-bottom: 30px }
+
+.statistics .overlay p { margin-top: 5px; font-size: 30px }
+
+.statistics .overlay span { font-size: 20px; font-weight: 600 }
+
+/* Media */
+@media (max-width:576px) {
+
+    .statistics .stat { margin-top: 20px }
+}
+
+/* End Statistics */
+
+/* Start Skills */
+
+.skills h2 { padding-bottom: 40px}
+
+.skills .progress { margin: 0 0 15px }
+
+.skills .progress .progress-bar {
+    text-align: left;
+    text-indent: 10px;
+    line-height: 35px;
+    font-size: 16px;
+    font-weight: 500
+}
+
+.skills .skill button { margin-top: 4px; width: 280px }
+
+/* Media */
+@media (min-width:769px) and (max-width:1199px) {
+
+    .skills .skill .lead { font-size: 18px; margin: 10px 0 23px }
+}
+
+@media (max-width:991px) {
+
+    .skills .skill .lead { font-size: 17px; margin: 10px 0 6px }
+}
+
+@media (max-width:768px) {
+
+    .skills .skill { text-align: center; margin-top: 20px }
+
+    .skills .skill .lead { margin-bottom: 10px }
+
+    .skills .skill button { width: 230px }
+}
+
+/* End Skills */
+
+/* Start Contact Us */
+
+.contact-us { background: url(../images/contact-us.jpg) no-repeat center center fixed; min-height: 300px }
+
+.contact-us .overlay {
+    background: rgba(5, 5, 5, 0.8);
+    min-height: 300px;
+    padding: 30px 0;
+    color: #aaa
+}
+
+.contact-us .co-head { margin-bottom: 30px }
+
+.contact-us .co-head h2 { padding-bottom: 0 }
+
+.contact-us .data input {
+    line-height: 1.5;
+    padding: 10px;
+    background-color: #444;
+    color: #fff
+}
+
+.contact-us .data1 textarea { height: 110px; background-color: #444; color: #fff }
+
+.contact-us .data1 button {
+    padding: 10px;
+    margin-top: 12px;
+    border-radius: 1rem;
+    font-size: 20px
+}
+
+/* End Contact Us */
+
+/* Start Clients */
+
+.clients img { opacity: 0.4; transition: all 0.8s ease-in-out; padding: 10px 0 }
+
+.clients img:hover { opacity: 1 }
+
+@media (max-width:768px) {
+    .clients ul li { width: 33.3333% }
+}
+
+/* End Clients */
+
+/* Start Footer */
+
+footer { background: #111; padding-bottom: 0 }
+
+footer h3 { padding-bottom: 20px }
+
+/* Links */
+footer .sitemap .links ul li {
+    width: 31.3333%;
+    display: inline-block;
+    line-height: 2.5;
+    font-size: 18px
+}
+
+footer .sitemap .links ul li:hover { color: #eee }
+
+/* Social */
+footer .sitemap .social img {
+    width: 42px;
+    opacity: 0.6;
+    transition: all 0.5s ease-in-out;
+    margin-right: 3px
+}
+
+footer .sitemap .social img:hover { opacity: 1 }
+
+/* Articles */
+
+footer .articles .media img { width: 125px }
+
+footer .articles .media .media-body { margin-top: 10px }
+    
+footer .articles .media .media-body p { font-size: 14px }
+
+/* Work */
+
+footer .work .work-img {
+    width: 48%;
+    display: inline-block;
+    padding: 10px;
+    line-height: 6
+}
+
+footer .copy {
+    background-color: #333;
+    padding: 10px;
+    color: #aaa;
+    font-size: 18px;
+    margin-top: 10px
+}
+
+/* Media */
+@media (min-width:992px) and (max-width:1199px) {
+
+    footer .sitemap .social img { margin-right: 0 }
+
+    footer .work .work-img { width: 48% }
+}
+
+@media (min-width:769px) and (max-width:991px) {
+
+    footer .work .work-img { width: 24% }
+
+    footer h3 { margin-top: 20px }
+}
+
+@media (max-width:768px) {
+
+    footer .articles h3,
+    footer .work h3 { margin-top: 20px }
+
+    footer .work .work-img { width: 24% }
+}
+
+@media (max-width:575px) {
+
+    footer .work .images { text-align: center }
+
+    footer .work .work-img { width: 49% }
+
+    footer .work .work-img img { width: 120px }
+}
+
+@media (max-width:283px) {
+
+    footer .copy { font-size: 16px }
+}
+
+@media (max-width:321px) {
+
+    footer .social li { width: 24.333%; padding: 5px }
+} 
+
+/* End Footer 
+
+/* Start Option Box */
+
+.option-box {
+    position: fixed;
+    top: 56px;
+    left: 0;
+    z-index: 9999;
+    color: #fff
+}
+
+.option-box .box {
+    min-width: 180px;
+    height: 80px;
+    background-color: #272626;
+    display: none
+}
+
+.option-box .box h5 { padding: 10px; margin: 2px }
+
+.option-box .box ul { text-indent: 8px }
+
+.option-box .box ul li {
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    margin-bottom: 10px;
+    margin-left: 3px
+}
+
+.option-box i { padding: 2px }
+
+/* End Option Box *
+
+/* Start Scroll */
+
+.scroll {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    color: #fff;
+    opacity: 0.8;
+    display: none
+}
+
+.scroll:hover { opacity: 1 }
+
+.scroll i { padding: 5px 10px; transition: all 0.3s ease-in-out }
+
+.scroll i:hover { transform: scale(1.1,1.1) }
+
+/* End Scroll */
+
+/* Start Loading */
+
+.loading {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #345067;
+    z-index: 99999;
+    color: #fff
+}
+
+/* Start Spinner */
+
+.loading .spinner { margin: 280px auto 0; width: 70px }
+
+.loading .spinner > div {
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  border-radius: 100%;
+  display: inline-block;
+  -webkit-animation: sk-bouncedelay 1.4s infinite ease-in-out both;
+  animation: sk-bouncedelay 1.4s infinite ease-in-out both
+}
+
+.loading .spinner .bounce1 { -webkit-animation-delay: -0.32s; animation-delay: -0.32s }
+
+.loading .spinner .bounce2 { -webkit-animation-delay: -0.16s; animation-delay: -0.16s }
+
+@-webkit-keyframes sk-bouncedelay {
+  0%, 80%, 100% { -webkit-transform: scale(0) }
+  40% { -webkit-transform: scale(1.0) }
+}
+
+@keyframes sk-bouncedelay {
+  0%, 80%, 100% { 
+    -webkit-transform: scale(0);
+    transform: scale(0)
+  } 40% { 
+    -webkit-transform: scale(1.0);
+    transform: scale(1.0)
+  }
+}
+
+/* End Spinner */
+
+/* End Loading */
+
+/* Start My Framework */
+
+.point,
+button,
+img,
+.our-team .overlay .person i,
+footer .sitemap ul li,
+.testmonials .carousel-indicators li,
+.option-box .box ul li,
+.option-box i,
+.scroll { cursor: pointer }
+
+h1,h2,h3,h4,h5 { font-family: 'Droid Serif', serif; font-weight: 500 }
+
+h2 { font-size: 2.5rem; padding-bottom: 10px }
+
+.overflow { overflow: hidden }
+
+.d-inline-block { display: inline-block }
+
+.b-cover { -webkit-background-size: cover; background-size: cover }
+
+/* End My Framework */
+
